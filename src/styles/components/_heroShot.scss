@@ -1,0 +1,37 @@
+.hero-shot {
+	&-section {
+		background: url("/assets/mobile/heroshot.jpg") center / cover
+			no-repeat;
+		min-height: 55rem;
+		margin-bottom: 4rem;
+		@media (min-width: $screen-desktop) {
+			min-height: 38rem;
+			background: url("/assets/desktop/heroshot.jpg") center / cover
+				no-repeat;
+		}
+	}
+
+	&-overlay {
+		padding: 4rem;
+		width: 100%;
+		background: $white-transparent-bg;
+		align-self: flex-end;
+		@media (min-width: $screen-desktop) {
+			align-self: center;
+			margin-right: 4rem;
+			width: 32rem;
+		}
+		h1 {
+			font-weight: $font-weight-light;
+			font-size: 2.3rem;
+		}
+		.btn {
+			margin-top: 2rem;
+			width: 80%;
+			font-size: 1rem;
+			@media (min-width: $screen-desktop) {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}

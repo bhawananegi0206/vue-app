@@ -1,0 +1,29 @@
+.subscriptionDetail {
+	&-section {
+		margin: 4rem 0 0;
+		padding: 3rem 0;
+		background-color: $color-two;
+	}
+	&-title {
+		margin: 1rem 0 5rem;
+	}
+	&-container {
+		padding-left: 0;
+		flex-direction: column;
+		@media (min-width: $screen-tablet) {
+			flex-direction: row;
+		}
+	}
+	&-img {
+		width: auto;
+	}
+
+	&-content {
+		h4 {
+			margin: 2rem 0 1rem;
+		}
+		.highlight {
+			width: 70%;
+		}
+	}
+}
