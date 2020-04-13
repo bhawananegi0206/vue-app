@@ -10,7 +10,7 @@
 	&-container {
 		padding-left: 0;
 		flex-direction: column;
-		@media (min-width: $screen-tablet) {
+		@media (min-width: $screen-desktop) {
 			flex-direction: row;
 		}
 	}

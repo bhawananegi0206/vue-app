@@ -13,11 +13,14 @@
 	}
 	&-details {
 		flex-direction: column;
-		@media (min-width: $screen-tablet) {
+		@media (min-width: $screen-desktop) {
 			flex-direction: row;
 		}
 	}
 	&-content {
+		@media (max-width: $screen-desktop) {
+			margin-bottom:3rem;
+		}
 		img {
 			width: inherit;
 		}

@@ -5,6 +5,18 @@
 	&-img {
 		width: 100%;
 	}
+	&-logo{
+		position: absolute;
+		width: 24%;
+		top: 5%;
+		left: 9%;
+		z-index: 1;
+		box-shadow: -.2rem .2rem .6rem -.3rem rgba(0,0,0,.4);
+		border-radius: .3rem;
+	}
+	&-mobileImages{
+        position:relative;
+	}
 	&-size {
 		h3 {
 			margin: 0.1rem 0 1.5rem;
@@ -26,17 +38,18 @@
 		li {
 			padding: 0.5rem;
 			margin: 1rem 0.5rem;
-			width: 5rem;
+			width: 25%;
 			@media (min-width: $screen-desktop) {
-				margin: 0;
-				width: auto;
+				 margin: 0 .8rem 0 0;
+   				 width: 20%;
 			}
 			p {
-				font-size: 1rem;
+				font-size: 1.5rem;
 				margin-bottom: 0;
 			}
 			span {
 				font-size: 0.8rem;
+				font-weight:$font-weight-light;
 			}
 		}
 	}

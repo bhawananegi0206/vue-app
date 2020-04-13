@@ -3,14 +3,14 @@
     class="subscriptionDetail-section row flex flex-align-center flex-justify-center"
   >
     <h2 class="subscriptionDetail-title center">{{ title }}</h2>
-    <ul class="flex w-100 subscriptionDetail-container">
+    <ul class="flex w-100 subscriptionDetail-container flex-align-center">
       <li
         class="subscriptionDetail-content col-sm-4 co-xs-12 flex flex-justify-start flex-align-center flex-dir-col"
         v-for="subscription in subscription_list"
         v-bind:key="subscription.title"
       >
         <img :src="subscription.src" :alt="subscription.alt" />
-        <h4>{{ subscription.title }}</h4>
+        <h4 class="center">{{ subscription.title }}</h4>
         <p class="center" v-html="subscription.desc"></p>
         <p class="center highlight">{{ subscription.highlight }}</p>
       </li>
