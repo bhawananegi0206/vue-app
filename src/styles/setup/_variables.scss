@@ -10,10 +10,11 @@ $color-white: #ffffff;
 
 $font-color: #66615b !default;
 $white-transparent-bg: rgba(255, 255, 255, 0.7);
+$main-background-color: #ffffff;
 
 $font-family: "Open Sans", "Helvetica", Arial, sans-serif;
 
-$font-size-base: 14px !default;
+$font-size-base: 30px !default;
 $font-size-xs: 12px !default;
 $font-size-small: 12px !default;
 $font-size-mediumish: 15px !default;
@@ -24,13 +25,12 @@ $font-size-extra-large: 28px !default;
 
 $font-size-h1: 2.625rem !default;
 $font-size-h2: 1.688rem !default;
-$font-size-h3: 0.825em !default;
-$font-size-h4: 1.5em !default;
-$font-size-h5: 1.25em !default;
-$font-size-h6: 0.9em !default;
-$font-paragraph: 16px !default;
-$font-size-button: 1.063em !default;
-$font-size-small: 12px !default;
+$font-size-h3: 0.825rem !default;
+$font-size-h4: 1.5rem !default;
+$font-size-h5: 1.25rem !default;
+$font-size-h6: 0.9rem !default;
+$font-paragraph: 16rem !default;
+$font-size-button: 1.063rem !default;
 
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
@@ -41,8 +41,8 @@ $font-weight-heavy: 700 !default;
 
 $transparent-bg: transparent !default;
 
-$padding-base-vertical: 10px !default;
-$padding-base-horizontal: 18px !default;
+$padding-base-vertical: 1rem !default;
+$padding-base-horizontal: 2rem !default;
 
 $fast-transition-time: 150ms !default;
 
